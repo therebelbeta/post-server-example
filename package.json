@@ -1,0 +1,24 @@
+{
+  "name": "post-server-example",
+  "version": "1.0.0",
+  "description": "post server example using micro",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/therebelbeta/post-server-example.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/therebelbeta/post-server-example/issues"
+  },
+  "homepage": "https://github.com/therebelbeta/post-server-example#readme",
+  "dependencies": {
+    "micro": "^9.3.3",
+    "urlencoded-body-parser": "^2.0.1"
+  }
+}
